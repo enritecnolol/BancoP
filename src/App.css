@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #F3F4F7;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 20px 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+main {
+  min-height: 82vh;
+}
+
+footer {
+  background-color: #007b5e;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+h2, p {
+  color: black;
+}
+
+.logo {
+  width: 180px;
+}
+
+/* .container {
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 0 15px;
+} */
+
+.actionBar {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.validation-error {
+  font-size: 14px;
+  color: red;
+}
+
+.flex-center {
+  display: flex; 
+  justify-content: center;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}

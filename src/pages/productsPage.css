@@ -1,0 +1,12 @@
+.logo-img {
+    width: 100px;
+    height: 55px;
+}
+
+.table-container {
+    margin-top: 30px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    overflow-x: auto;
+}

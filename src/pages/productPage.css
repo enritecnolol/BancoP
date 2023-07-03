@@ -1,0 +1,18 @@
+.form-card {
+  background-color: white;
+  width: 70%;
+  height: 100%;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .form-card {
+    width: 100%;
+  }
+}
+
+.form-title {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #dee2e6;
+}

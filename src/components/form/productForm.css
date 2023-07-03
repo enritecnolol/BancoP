@@ -1,0 +1,21 @@
+.col-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.col {
+  background-color: white;
+  padding: 10px;
+}
+
+@media screen and (max-width: 766px) {
+  .col-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.form-container {
+  min-width: 150px;
+  margin-bottom: 1rem;
+}
